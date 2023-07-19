@@ -114,4 +114,11 @@ line-height: 30px;
 .fun-header{
     margin-bottom: 24px;
 }
+.instant-play{
+display: flex;
+padding: 0px 240px 0px 330px;
+justify-content: space-between;
+align-items: center;
+
+}
 
