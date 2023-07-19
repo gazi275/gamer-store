@@ -45,6 +45,17 @@
         display: flex;
         justify-content: center;
     }
- 
+    .game-videos-head {
+        
+        font-size: 16px
+    ;
+    }
+    .funny-videos{
+        padding: 20px 0;
+        font-size: ;
+    }
+    .funny-container{
+        flex-direction: column;
+    }
    
  }
