@@ -1,0 +1,117 @@
+ 
+ *{
+    margin: 0;
+ }
+ header{
+    width: 100%;
+    height: 80px;
+    background:white ;
+}
+.navigation{
+color: #0B0223;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+display: flex ;
+align-items: center;
+gap: 20px;
+}
+.navigation img{
+     width: 86.041px;
+    height: 40px;
+ }
+    
+   
+
+span{
+    color: #d1066f ;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px 240px;
+    
+}
+.about-section ul{
+   align-items: center;
+   display: flex;
+   gap: 32px;
+   align-items: center;
+   
+}
+.about-section ul li{
+  list-style: none  ;
+}
+li a{
+    text-decoration: none;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #3C354F;
+    margin-left: 20px;
+text-align: center;
+/* font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; */
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: 190px;
+height: 30px;
+padding: 17px 24px; 
+}
+.follow-des{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.goat{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+display: flex;
+gap: 50px;
+padding: 70px 240px 0px 240px;
+justify-content: space-between;
+align-items:center ;
+
+
+}
+.icon-add{
+    display: flex;
+}
+.funny-videos{
+    padding: 120px 240px;
+    background: #fff;
+}
+.game-videos-head{
+    text-align: center;
+}
+.funny-container{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+.fun-photo{
+    border-radius: 16px;
+}
+.photo-bottom{
+    margin-top: 24px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+}
+.fun-header{
+    margin-bottom: 24px;
+}
+
