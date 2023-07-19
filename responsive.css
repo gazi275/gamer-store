@@ -1,0 +1,50 @@
+@media screen and (max-width:576px) {
+    header{
+        height: auto;
+    }
+    .nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .goat{
+        flex-direction: column-reverse;
+    }
+    .goat-pic{
+        width: 500px;
+        padding: 10px;
+    }
+    .goat-pic div{
+        width: 100% ;
+    }
+    .goat-pic div img{
+        width: 100% ;
+    }
+    .goat-description h1{
+        font-size: 45px;
+        text-align: left;
+    }
+    .goat-description h3{
+        text-align: left;
+    }
+    
+    .goat-description{
+        width: 500px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+ 
+   
+ }
