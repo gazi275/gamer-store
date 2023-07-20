@@ -1,4 +1,5 @@
 @media screen and (max-width:576px) {
+   
     header{
         height: auto;
     }
@@ -6,6 +7,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        margin: 0 ;
+        
     }
     .navigation{
         flex-direction: column;
@@ -20,9 +24,12 @@
     }
     .goat{
         flex-direction: column-reverse;
+        width: 100%;
+        padding: 35px;
+        
     }
     .goat-pic{
-        width: 500px;
+        width:100%;
         padding: 10px;
     }
     .goat-pic div{
@@ -47,20 +54,29 @@
     }
     .game-videos-head {
         
-        font-size: 16px
-    ;
+        font-size: 16px;
+    }
+    
+    .play-icon img{
+       margin-left: 90px;
+    }
+    .fun-photo p{
+        text-align: center;
     }
     .funny-videos{
         padding: 40px 0;
         
+        
     }
     .funny-container{
         flex-direction: column;
+         align-items: center; 
     }
     .section1{
         width: 100%;
         padding: 10px;
-        border: 1px solid red;
+       
+        
     }
    .instant-play{
     flex-direction: column;
@@ -107,7 +123,7 @@ float: right;
     
     padding: 10px;
     gap:1px;
-    border: 1px solid red;
+    
    }.game img{
     width: 30px;
     
@@ -126,19 +142,7 @@ float: right;
    .game p{
     font-size: 15px;
    }
-   /* .games-name{
-    
-    padding: 0;
-    display: flex;
-    flex: 1 1 1;
-    
-   }
-   .game-name2{
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:0;
-   } */
+   
    .last-stage{
     padding: 0;
     flex-direction: column;
@@ -147,6 +151,7 @@ float: right;
     padding: 50px 0;
     font-size: 20px;
     margin-top:  60 px;
+    
    }
    .section{
    
