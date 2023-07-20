@@ -275,12 +275,7 @@ width: 83%;
     bottom: 300px;
     
  } 
- .games-name{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    padding: 70px 250px;
-    gap: 30px;
- }
+ 
  .game{
     display: flex;
     align-items: center;
@@ -295,25 +290,9 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
  }
- .game1{
-    color: #0B0223;
-
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    border-radius: 50px;
-background: #FFF;
-padding: 10px;
- }.game-name2{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 5px 330px 120px 330px;
-    gap: 30px;
- }
+ 
+ 
+ 
  .games{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     height: 427px;
@@ -326,11 +305,7 @@ padding: 10px;
     
 
 }
-.game1:hover{
 
-  border: 1px solid #d1066f;
-    color:#d1066f
-}
 .game:hover{
 
     border: 1px solid #d1066f;

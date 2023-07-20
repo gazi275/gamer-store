@@ -57,18 +57,76 @@
     .funny-container{
         flex-direction: column;
     }
+    .section1{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid red;
+    }
    .instant-play{
     flex-direction: column;
-    margin: 5px 2px 5px 4px;
+    
+    width: 100%;
+    margin: 0;
+   }
+   .instant-play-photo{
+    width: 100%;
+    position: relative;
+    top: -100px;
+   }
+   .img1{
+width: 80%;
+margin: 0 auto;
+float: right;
+
+
+   }
+   .img2{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 120px;
+    height: 150px;
    }
    .instant-play-des{
     padding: 5px;
+    
+    
+   }
+   .instant-play-des h3{
+    font-size: 35px;
+    text-align: center;
+   }
+   
+   .instant-play-des p,h3{
+    text-align: center;
    }
    .games{
-    margin-top: 600px;
-    padding: 0;
+    margin-top: 10px;
+    
+    width: 100%;
+    
+    padding: 10px;
+    gap:1px;
+    border: 1px solid red;
+   }.game img{
+    width: 30px;
+    
    }
-   .games-name{
+   .gaming{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .game{
+    border-radius: 20px;
+    font-weight: 200;
+    gap: 5px;
+
+   }
+   .game p{
+    font-size: 15px;
+   }
+   /* .games-name{
     
     padding: 0;
     display: flex;
@@ -80,7 +138,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:0;
-   }
+   } */
    .last-stage{
     padding: 0;
     flex-direction: column;
@@ -88,7 +146,7 @@
    .footer{
     padding: 50px 0;
     font-size: 20px;
-    margin-top: 250px;
+    margin-top:  60 px;
    }
    .section{
    
