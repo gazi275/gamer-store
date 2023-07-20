@@ -61,7 +61,11 @@ background: rgba(11, 2, 35, 0.10);
 width: 190px;
 height: 40px;
 padding: 17px 24px; 
-}.play-now{
+}.follow i{
+    color: red;
+    font-size: 20px;
+}
+.play-now{
     height: 100%;
     width: 100%;
      position: absolute; 
@@ -79,7 +83,7 @@ padding: 17px 24px;
 }
 
 .play-now:hover{
-    margin-left: 90px;
+    
      width: 342px;
     opacity:1;
     font-size: 20px;

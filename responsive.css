@@ -55,6 +55,15 @@
     .game-videos-head {
         
         font-size: 16px;
+    }.play-now:hover{
+        margin-left: 90px;
+         width: 342px;
+        opacity:1;
+        font-size: 20px;
+        color: #fff;
+        border: 1px solid #F948B2;
+        border-radius: 20px;
+    
     }
     
     .play-icon img{
